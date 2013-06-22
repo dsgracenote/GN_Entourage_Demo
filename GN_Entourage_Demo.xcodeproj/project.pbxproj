@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E771B4A517764F6800F585EB /* GnMetadataImage.m in Sources */ = {isa = PBXBuildFile; fileRef = E771B4A217764F6800F585EB /* GnMetadataImage.m */; };
+		E771B4A617764F6800F585EB /* GnXIDFetcher.m in Sources */ = {isa = PBXBuildFile; fileRef = E771B4A417764F6800F585EB /* GnXIDFetcher.m */; };
 		E7DF31C81729FB2D00019BE0 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E7DF31C71729FB2D00019BE0 /* UIKit.framework */; };
 		E7DF31CA1729FB2D00019BE0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E7DF31C91729FB2D00019BE0 /* Foundation.framework */; };
 		E7DF31CC1729FB2D00019BE0 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E7DF31CB1729FB2D00019BE0 /* CoreGraphics.framework */; };
@@ -24,6 +26,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		E771B4A117764F6800F585EB /* GnMetadataImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GnMetadataImage.h; sourceTree = "<group>"; };
+		E771B4A217764F6800F585EB /* GnMetadataImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GnMetadataImage.m; sourceTree = "<group>"; };
+		E771B4A317764F6800F585EB /* GnXIDFetcher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GnXIDFetcher.h; sourceTree = "<group>"; };
+		E771B4A417764F6800F585EB /* GnXIDFetcher.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GnXIDFetcher.m; sourceTree = "<group>"; };
 		E7DF31C41729FB2D00019BE0 /* GN_Entourage_Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GN_Entourage_Demo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E7DF31C71729FB2D00019BE0 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		E7DF31C91729FB2D00019BE0 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -95,6 +101,10 @@
 		E7DF31CD1729FB2D00019BE0 /* GN_Entourage_Demo */ = {
 			isa = PBXGroup;
 			children = (
+				E771B4A117764F6800F585EB /* GnMetadataImage.h */,
+				E771B4A217764F6800F585EB /* GnMetadataImage.m */,
+				E771B4A317764F6800F585EB /* GnXIDFetcher.h */,
+				E771B4A417764F6800F585EB /* GnXIDFetcher.m */,
 				E7DF31D61729FB2D00019BE0 /* GNAppDelegate.h */,
 				E7DF31D71729FB2D00019BE0 /* GNAppDelegate.m */,
 				E7DF31DF1729FB2D00019BE0 /* GNViewController.h */,
@@ -189,6 +199,8 @@
 				E7DF31D41729FB2D00019BE0 /* main.m in Sources */,
 				E7DF31D81729FB2D00019BE0 /* GNAppDelegate.m in Sources */,
 				E7DF31E11729FB2D00019BE0 /* GNViewController.m in Sources */,
+				E771B4A517764F6800F585EB /* GnMetadataImage.m in Sources */,
+				E771B4A617764F6800F585EB /* GnXIDFetcher.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
